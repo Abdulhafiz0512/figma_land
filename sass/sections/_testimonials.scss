@@ -1,0 +1,127 @@
+#testimonials {
+    background-color: rgba(24, 24, 24, 1);
+    padding-bottom: 150px;
+    .container {
+      .top_row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+          font-size: 52px;
+          font-weight: 400;
+          line-height: 62px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: $bg-white;
+        }
+      }
+      .bottom_row {
+        display: flex;
+        flex-direction: row;
+        gap: 23px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        .first_column {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .card {
+            max-width: 430px;
+            border: 1px solid rgba(222, 222, 222, 1);
+            padding: 40px;
+            gap: 30px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            opacity: 0px;
+  
+            .client {
+              display: flex;
+              flex-direction: row;
+              gap: 23px;
+              .text_content {
+                display: flex;
+                flex-direction: column;
+                .name {
+                  color: $bg-white;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.20000000298023224px;
+                  text-align: left;
+                }
+                .job {
+                  color: $bg-white;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.10000000149011612px;
+                  text-align: left;
+                }
+              }
+            }
+            p {
+              color: $bg-white;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+        }
+        .second_column {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .card {
+            max-width: 430px;
+            border: 1px solid rgba(222, 222, 222, 1);
+            padding: 40px;
+            gap: 30px;
+            border-radius: 10px;
+  
+            opacity: 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .client {
+              display: flex;
+              flex-direction: row;
+              gap: 23px;
+              .text_content {
+                display: flex;
+                flex-direction: column;
+                .name {
+                  color: $bg-white;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.20000000298023224px;
+                  text-align: left;
+                }
+                .job {
+                  color: $bg-white;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0.10000000149011612px;
+                  text-align: left;
+                }
+              }
+            }
+            p {
+              color: $bg-white;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }

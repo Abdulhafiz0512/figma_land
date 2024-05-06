@@ -1,0 +1,35 @@
+header {
+    background-color: rgba(24, 24, 24, 1);
+  
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .wrapper {
+        ul {
+          list-style: none;
+          display: flex;
+          gap: 31px;
+          li {
+            color: white;
+          }
+        }
+      }
+      button {
+        border: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+        background-color: transparent;
+  
+        p {
+          padding: 13.5px 46px;
+  
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 25px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: white;
+        }
+      }
+    }
+  }

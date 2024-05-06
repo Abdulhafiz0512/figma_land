@@ -1,0 +1,58 @@
+#partners {
+    background-color: rgba(24, 24, 24, 1);
+    padding-bottom: 150px;
+    .container {
+      .top_row {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          font-size: 52px;
+          font-weight: 400;
+          line-height: 62px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: left;
+          color: $bg-white;
+        }
+        p {
+          max-width: 571px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: center;
+          color: $bg-white;
+        }
+      }
+      .bottom_row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        .logos {
+          display: flex;
+          flex-direction: row;
+          gap: 74px;
+          padding-bottom: 50px;
+        }
+        button {
+          background-color: transparent;
+          padding: 10px 30px 10px 30px;
+          gap: 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          border: 1px solid rgba(255, 255, 255, 1);
+          p {
+            color: $bg-white;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }

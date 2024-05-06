@@ -1,0 +1,49 @@
+
+#cta {
+    background-color: rgba(24, 24, 24, 1);
+    padding-bottom: 150px;
+    padding-top: 30px;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card {
+        max-width: 1219px;
+        background-color: rgba(52, 52, 52, 1);
+        border-radius: 33px;
+        display: flex;
+        flex-direction: row;
+        gap: 66px;
+        .first_column {
+          padding-top: 78.5px;
+          padding-left: 94px;
+          display: flex;
+          flex-direction: column;
+          gap: 37px;
+          align-items: start;
+          h2 {
+            color: $bg-white;
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 62px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+          }
+          button {
+            background-color: $primary-blue;
+            padding: 10px 46px 10px 46px;
+            box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  
+            p {
+              font-size: 17px;
+              font-weight: 500;
+              line-height: 25px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+              color: $bg-white;
+            }
+          }
+        }
+      }
+    }
+  }

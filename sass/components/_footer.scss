@@ -1,0 +1,110 @@
+
+footer {
+    background-color: rgba(24, 24, 24, 1);
+    padding-bottom: 107px;
+    .container {
+      display: flex;
+      justify-content: center;
+      .columns {
+        display: flex;
+        gap: 75px;
+        .first_column {
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          p {
+            color: $bg-white;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+          }
+          ul {
+            li {
+              padding-bottom: 19px;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+        }
+        .second_column {
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          p {
+            color: $bg-white;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+          }
+          ul {
+            li {
+              padding-bottom: 19px;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+        }
+        .third_column {
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          p {
+            color: $bg-white;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+          }
+          ul {
+            li {
+              padding-bottom: 19px;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+        }
+      }
+      .last {
+          padding-left: 199px;
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+          gap: 21px;
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            p {
+              color: $bg-white;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+            }
+          }
+          li:nth-child(3){
+              display: flex;
+              gap:24px;
+          }
+        }
+      }
+    }
+  }
